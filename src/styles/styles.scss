@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+}
+
+.container{
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+}
+button{
+  border: none;
+  cursor: pointer;
+}
+
+@import "header";
+@import "begin";
+@import "edu";
+@import "edge";
+@import "reviews";
+@import "price";
+@import "footer";
+@import "form";
+@import "userHeader";
+@import "way";
+@import "curator";
+@import "lesson";
+@import "footerUser";
+@import "cart";
+@import "profile";
+@import "project";
+@import "level";
+@import "reset";
+@import "module";
+@import "lection";

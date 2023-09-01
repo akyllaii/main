@@ -1,0 +1,61 @@
+.way{
+  padding: 53px 0;
+  &__title{
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+    text-align: center;
+  }
+  &__btn{
+    border-radius: 5px;
+    background: var(--red, #D0082C);
+    color: #FFF;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 20px 0;
+  }
+  &__card{
+    color: #000;
+    cursor: pointer;
+    padding: 10px 0;
+    width: 185px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid var(--light-gray, #7D7C85);
+  }
+  &__row{
+    display: flex;
+    margin-top: 27px;
+  }
+  &__line{
+    width: 156px;
+    height: 2px;
+    background: var(--light-gray, #7D7C85);
+  }
+  &__line2{
+    width: 2px;
+    height: 52px;
+    background: var(--light-gray, #7D7C85);
+    position: relative;
+    left: 87px;
+  }
+  &__line3{
+    width: 1350px;
+    height: 5px;
+    border-radius: 5px;
+    background: #7D7C85;
+    margin-top: 55px;
+  }
+  &__row2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  &__block{
+    width: calc(20% - 40px);
+  }
+}

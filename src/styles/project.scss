@@ -1,0 +1,59 @@
+.project{
+  padding: 27px 0 241px 0;
+  &__row{
+    display: flex;
+    column-gap: 40px;
+    margin-top: 27px;
+    align-items: center;
+  }
+  &__left{
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px 0px #EBE6E6;
+    padding: 25px;
+    &-title{
+      color: var(--dark-gray, #302D3D);
+      font-size: 20px;
+      font-weight: 600;
+    }
+    &-text{
+      color: #000;
+      font-size: 16px;
+      font-weight: 400;
+      margin: 30px 0;
+    }
+  }
+  &__title{
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+  }
+  &__subtitle{
+    margin: 46px 0;
+    color: var(--light-gray, #7D7C85);
+    font-size: 12px;
+    font-weight: 400;
+    span{
+      color: #000;
+      font-size: 18px;
+      font-weight: 600;
+      text-decoration-line: underline;
+    }
+  }
+  &__line{
+    background: #7D7C85;
+    width: 780px;
+    height: 1px;
+  }
+  &__level{
+    color: var(--dark-gray, #302D3D);
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration-line: underline;
+  }
+  &__status{
+    color: var(--dark-gray, #302D3D);
+    font-size: 12px;
+    font-weight: 400;
+  }
+}

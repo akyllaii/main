@@ -1,0 +1,33 @@
+.reviews{
+  padding: 120px 0;
+  &__row{
+    display: flex;
+    justify-content: center;
+  }
+  &__title{
+    color: #302D3D;
+    font-weight: 500;
+    letter-spacing: -3.6px;
+    font-size: 60px;
+  }
+  &__middle{
+    margin: 0 40px 0 86px;
+    &-title{
+      margin: 18px 0 6px;
+      color: #000;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    &-subtitle{
+      color: #000;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+  &__right{
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+  }
+}

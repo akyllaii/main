@@ -1,0 +1,13 @@
+.footeruser{
+  padding: 21px 0;
+  background: var(--dark-gray, #302D3D);
+  &__row{
+    display: flex;
+    column-gap: 144px;
+  }
+  &__text{
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}

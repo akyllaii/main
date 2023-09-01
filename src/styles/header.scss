@@ -1,0 +1,19 @@
+.header{
+  padding: 50px 0 93px;
+  &__row{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__nav{
+    display: flex;
+    column-gap: 10px;
+  }
+  &__link{
+    color: #302D3D;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 25px;
+    background: #FFF;
+    padding: 20px 30px;
+  }
+}

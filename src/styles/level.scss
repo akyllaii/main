@@ -1,0 +1,71 @@
+.level{
+  padding: 27px 0;
+  &__row{
+    display: flex;
+    column-gap: 41px;
+    align-items: center;
+    margin: 24px 0;
+  }
+  &__block{
+    padding: 25px 576px 25px 25px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 4px 15px 0px #EBE6E6;
+  }
+  &__title{
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+    text-decoration-line: underline;
+  }
+  &__lvl{
+    color: var(--dark-gray, #302D3D);
+    font-size: 18px;
+    font-weight: 600;
+  }
+  &__subtitle{
+    color: var(--light-gray, #7D7C85);
+    font-size: 12px;
+    margin-top: 41px;
+    font-weight: 400;
+    span{
+      color: #000;
+      font-size: 18px;
+      font-weight: 600;
+      text-decoration-line: underline;
+    }
+  }
+  &__acc{
+    padding-right: 487px;
+    &-title{
+      color: var(--dark-gray, #302D3D);
+      margin: 60px 0 10px 0;
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+  &__num{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 6px 11px;
+    background: red;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  &__inp{
+    border-radius: 5px;
+    border: 1px solid #EFEEEE;
+    width: 521px;
+    padding: 10px;
+  }
+  &__btn{
+    border-radius: 5px;
+    background: var(--red, #D0082C);
+    padding: 10px 20px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}

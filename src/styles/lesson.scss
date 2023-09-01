@@ -1,0 +1,45 @@
+.lesson{
+  padding: 52px;
+  &__row1{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__block{
+    padding: 37px 543px 0 37px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 4px 15px 0px #EBE6E6;
+  }
+  &__title{
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+  }
+  &__row{
+    display: flex;
+    column-gap: 21px;
+    margin: 22px 0;
+    align-items: center;
+  }
+  &__level{
+    color: var(--dark-gray, #302D3D);
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration-line: underline;
+  }
+  &__project{
+    color: var(--dark-gray, #302D3D);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration-line: underline;
+  }
+  &__status{
+    border-radius: 5px;
+    background: var(--green, #30B54D);
+    padding: 5px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}

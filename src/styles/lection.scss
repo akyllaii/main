@@ -1,0 +1,51 @@
+.lection{
+  padding: 27px 0 94px 0;
+  &__title{
+    color: #000;
+    padding: 65px 0 86px 0;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+  }
+  &__block{
+    margin: 15px 0;
+    padding: 38px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px 0px #EBE6E6;
+    &-title{
+      color: #000;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    &-text{
+      margin: 19px 0;
+      color: #000;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+  &__textarea{
+    resize: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #EFEEEE;
+    width: 875px;
+    height: 193px;
+  }
+  &__btn{
+    border-radius: 5px;
+    background: var(--red, #D0082C);
+    padding: 10px 40px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 14px 0 39px 0 ;
+    display: block;
+  }
+  &__answer{
+    margin-top: 21px;
+    color: var(--light-gray, #7D7C85);
+    font-size: 12px;
+    font-weight: 400;
+  }
+}

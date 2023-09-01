@@ -1,0 +1,54 @@
+.profile{
+  padding: 27px 0 224px;
+  &__title{
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+    margin: 65px 0;
+  }
+  &__img{
+    display: flex;
+    justify-content: center;
+  }
+  &__ava{
+    width: 157px;
+    height: 157px;
+    border-radius: 50%;
+  }
+  &__text{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration-line: underline;
+    margin: 23px 0;
+    text-align: center;
+    cursor: pointer;
+  }
+  &__inp{
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    width: 251px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #EFEEEE;
+    margin-bottom: 20px;
+  }
+  &__row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__btn{
+    color: #FFF;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 5px;
+    background: var(--red, #D0082C);
+    padding: 10px 85px;
+    font-weight: 600;
+  }
+}

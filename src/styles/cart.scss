@@ -1,0 +1,36 @@
+.cart{
+  padding: 58px 0;
+  &__title{
+    margin: 52px 0;
+    color: var(--dark-gray, #302D3D);
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+  }
+  &__row{
+    display: flex;
+    column-gap: 52px;
+    margin-bottom: 25px;
+    align-items: center;
+  }
+  &__text{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: 2px solid #302D3D;
+    padding: 10px 0 10px 10px ;
+    width: 260px;
+  }
+  &__price{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    span{
+      color: var(--red, #D0082C);
+      text-decoration: line-through;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+}

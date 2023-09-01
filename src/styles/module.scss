@@ -1,0 +1,35 @@
+.module{
+  padding: 27px 0 250px 0;
+  &__row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 27px;
+  }
+  &__acc{
+    padding-right: 795px;
+  }
+  &__item{
+    cursor: pointer ;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration-line: underline;
+  }
+  &__list{
+    padding-left: 50px;
+  }
+  &__test{
+    color: #000;
+    font-size: 20px;
+    margin: 50px 0 20px;
+    font-weight: 600;
+  }
+  &__btn{
+    border-radius: 5px;
+    background: var(--red, #D0082C);
+    padding: 10px 50px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
