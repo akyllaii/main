@@ -25,6 +25,7 @@
     border-radius: 5px;
     border: 1px solid #EFEEEE;
     padding: 10px;
+    outline: none;
   }
   &__row{
     display: flex;
@@ -55,5 +56,24 @@
     text-align: center;
     font-size: 14px;
     font-weight: 600;
+  }
+  &__block{
+    color: var(--light-gray, #7D7C85);
+    width: 205px;
+    font-size: 8px;
+    font-weight: 400;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #EFEEEE;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__input{
+    border: none;
+    outline: none;
+  }
+  &__icon{
+    font-size: 15px;
   }
 }

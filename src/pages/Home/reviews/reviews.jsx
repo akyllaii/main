@@ -1,5 +1,8 @@
 import React from 'react';
 import ivan from '../../../assets/ivan.png'
+import "swiper/css";
+import "swiper/css/navigation";
+
 
 const Reviews = () => {
     return (

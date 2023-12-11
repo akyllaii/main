@@ -15,13 +15,22 @@ export const getProjects = createAsyncThunk(
 )
 
 const initialState = {
-    data: []
+    data: [],
+    items: [],
+    totalAmount:0
 };
 
 const projectSlice = createSlice({
     name: 'projectSlice',
     initialState,
-    reducers: {},
+    reducers: {
+        addToCart: (state, action) => {
+            state.items.push(action.payload);
+        },
+        removeFromCart: (state, action) => {
+            state.items = state.items.filter(item => item.id !== action.payload.id);
+        },
+    },
     extraReducers: (builder) => {
     builder.addCase(getProjects.pending, (state) => {
         state.status = 'loading'
@@ -37,4 +46,6 @@ const projectSlice = createSlice({
 }
 });
 
+
+export const { addToCart, removeFromCart  } = projectSlice.actions;
 export default projectSlice.reducer;

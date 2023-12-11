@@ -39,8 +39,6 @@ const Module = () => {
                         </div>
                         <Curator/>
                     </div>
-                    <h1 className="module__test">Итоговый тест</h1>
-                    <button className="module__btn">Пройти</button>
                 </div>
             </section>
             <FooterUser/>

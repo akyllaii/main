@@ -12,6 +12,7 @@ import Level from "../pages/Level/Level";
 import Reset from "../pages/Reset/Reset";
 import Lection from "../pages/Lection/Lection";
 
+
 export default function Router () {
     const routes = useRoutes([
         {

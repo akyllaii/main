@@ -10,6 +10,7 @@
   &__img{
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
   }
   &__ava{
     width: 157px;
@@ -33,7 +34,7 @@
     padding: 10px;
     border-radius: 2px;
     border: 1px solid #EFEEEE;
-    margin-bottom: 20px;
+    margin: 20px 0;
   }
   &__row{
     display: flex;

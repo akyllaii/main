@@ -4,6 +4,7 @@ import {useNavigate} from 'react-router-dom'
 import {useSelector} from "react-redux";
 import {useForm} from "react-hook-form";
 import axios from "axios";
+import {toast} from "react-toastify";
 
 const Reset = () => {
     const navigate = useNavigate()
@@ -17,8 +18,10 @@ const Reset = () => {
                 'Content-Type': 'application/json',
                 "Authorization": `Bearer ${token}`
             },
-        }).then(({data}) => console.log(data));
-
+        }).then(({data}) => console.log(data)).catch((err) => {
+            console.log(err)
+            toast(err.response.data[0].message);
+        });
     }
 
     return (

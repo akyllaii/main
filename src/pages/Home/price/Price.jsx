@@ -1,6 +1,8 @@
 import React from 'react';
+import {useNavigate} from 'react-router-dom'
 
 const Price = () => {
+    const navigate = useNavigate()
     return (
         <section className='price'>
             <div className="container">
@@ -13,7 +15,7 @@ const Price = () => {
                 </div>
                 <h2 className="price__subtitle">Согласись, <br/>
                     35 000 за новую профессию — это выгодная сделĸа!</h2>
-                <button className="price__btn">Начать учиться</button>
+                <button onClick={() => navigate('/register')} className="price__btn">Начать учиться</button>
             </div>
         </section>
     );

@@ -1,8 +1,10 @@
 import React from 'react';
 import bracket from '../../../assets/bracket.svg'
 import Header from "../../../components/Layout/Header/Header";
+import {useNavigate} from 'react-router-dom'
 
 const Begin = () => {
+    const navigate = useNavigate()
     return (
         <section className='begin'>
             <Header/>
@@ -20,7 +22,7 @@ const Begin = () => {
                   </div>
                   <div className="begin__right">
                       <p className="begin__text">Получи классную востребованную <br/> профессию и зарабатывай дома <br/> в удобное время</p>
-                      <button className="begin__btn">Начать учиться</button>
+                      <button onClick={() => navigate('/register')} className="begin__btn">Начать учиться</button>
                   </div>
               </div>
               <div className="begin__nav">

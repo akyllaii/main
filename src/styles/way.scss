@@ -57,5 +57,13 @@
   }
   &__block{
     width: calc(20% - 40px);
+    position: relative;
+  }
+  &__plus{
+    position: absolute;
+    right: 32px;
+    top: 35px;
+    cursor: pointer;
+    background: transparent;
   }
 }

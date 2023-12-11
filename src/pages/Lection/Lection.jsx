@@ -6,6 +6,14 @@ import {useNavigate} from 'react-router-dom'
 
 const Lection = () => {
     const navigate = useNavigate()
+    // const dispatch = useDispatch()
+    // const message = useSelector(store => store.messageSlice)
+    //
+    // const handleSendMessage = () => {
+    //     const newMessage = "Новый текст сообщения";
+    //     dispatch(setMessageText(newMessage));
+    // };
+
     return (
         <>
            <UserHeader/>
